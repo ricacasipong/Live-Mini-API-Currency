@@ -1,0 +1,77 @@
+body {
+	font-family: 'Roboto', sans-serif;
+    background-image: url('BGP.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.heading {
+	padding-top: 50px;
+    font-size: 55px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.main {
+    background-color: #fff;
+	border: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+label {
+	font-size: 20px;
+}
+
+.btn {
+	width: 150px;
+}
+
+#finalAmount {
+	font-family: 'Roboto', sans-serif;
+	display: none;
+	margin: 50px auto;
+}
+
+#finalAmount h2 {
+	font-size: 35px;
+	color: rgb(255, 255, 255);
+}
+
+.finalValue {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+	hr {
+		width: 60%;
+	}
+	.main {
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	.heading {
+		font-size: 60px;
+	}
+	#finalAmount h2, .finalValue {
+		font-size: 40px;
+		color: rgb(255, 255, 255);
+	}
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.container {
+	padding-top: 60px;
+}
+h4 {
+    color: #ffffff;
+    font-weight: bold;
+}
